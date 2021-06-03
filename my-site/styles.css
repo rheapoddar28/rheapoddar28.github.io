@@ -1,0 +1,179 @@
+body{
+  background-color: #c2c2c2;
+  position:relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 180%;
+  margin: 0;
+
+}
+/* div{
+} */
+h1{
+  text-align: center;
+  margin: 0;
+  font-family: 'Montez', cursive;
+  font-weight: lighter;
+  font-size: 6rem;
+  font-stretch: expanded;
+  letter-spacing: 0.05em;
+}
+h2{
+  color:#393e46;
+  margin: 2em;
+}
+
+h3{
+  color: #5893ae;
+}
+
+
+p{
+  color: #2a455b;
+  text-align: center;
+  font-size: 80%;
+  margin-bottom: 0;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color:#393e46;
+}
+
+a:active{
+  color:#393e46;
+}
+
+.footer-link {
+  padding: 0 3em;
+  color: #5893ae;
+}
+
+
+
+
+.top-container{
+  padding: 3em 0 0;
+  position: relative;
+  text-align: center;
+  background-color: #c2c2c2;
+}
+
+.name{
+  display: inline-block;
+  color: #5893ae;
+
+}
+.cloud1{
+  display: inline-block;
+  position: absolute;
+  left:60rem;
+  top: 6rem;
+}
+
+.cloud2{
+  display: inline-block;
+  position: absolute;
+  left: 17rem;
+  top: 14rem;
+}
+
+.empty{
+  height:.7em;
+}
+
+.mountain{
+  height: 20.5rem;
+  display: inline-block;
+}
+
+.middle-container{
+  background-color: #eeeeee;
+  padding: 5rem 0 5rem;
+
+}
+
+.skill1{
+  height: 9.5rem;
+  color:#393e46;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.skill2{
+  height:8rem;
+}
+
+.skill3{
+  height:10.5rem;
+}
+
+.profile-img{
+  height:14rem;
+  margin: 0;
+}
+
+.profile{
+  text-align: center;
+  padding: 1em 18em;
+}
+
+.skills{
+  text-align: center;
+  padding: 1em 12em;
+}
+.contact-me{
+  text-align: center;
+  padding: 1em 14em;
+}
+
+.btn{
+  color: #2a455b;
+  background-color:#5893ae;
+  padding: .8rem 1.3rem .6rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: .3rem;
+}
+.bottom-container{
+  text-align: center;
+  padding: 1em 0;
+}
+
+.first{
+  margin-top: 4em;
+}
+
+.second{
+  margin-bottom: 4em
+}
+
+.mail{
+  height:.8rem;
+  margin-right: .3rem;
+}
+
+.bottom-container{
+  font-size: .8em;
+  padding-top: 2.5rem;
+}
+
+.copyright{
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.piano{
+  margin-top: 0;
+}
+
+.middle-container-line{
+  border: .37rem dotted #D6D6D6;
+  border-style: none none dotted;
+  width: 5%;
+  padding: 0 0 4rem;
+}
+
+.skills-para{
+  padding-bottom: 3rem;
+}
