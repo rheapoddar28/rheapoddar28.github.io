@@ -16,6 +16,7 @@ h1{
   font-size: 6rem;
   font-stretch: expanded;
   letter-spacing: 0.05em;
+  line-height: 2;
 }
 h2{
   color:#393e46;
@@ -29,11 +30,9 @@ h3{
 
 p{
   color: #2a455b;
-  text-align: center;
   font-size: 80%;
   margin-bottom: 0;
-}
-
+  font-family: 'EB Garamond', serif;}
 a{
   text-decoration: none;
 }
@@ -86,6 +85,7 @@ a:active{
 .mountain{
   height: 20.5rem;
   display: inline-block;
+  margin-bottom: 0;
 }
 
 .middle-container{
@@ -95,17 +95,25 @@ a:active{
 }
 
 .skill1{
-  height: 9.5rem;
+  /* height: 9.5rem; */
   color:#393e46;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  width:25%;
+  float:left;
+  margin-right: 2.2rem;
 }
 .skill2{
-  height:8rem;
+  /* height:8rem; */
+  width: 25%;
+  float: right;
+  margin-left: 2.2rem;
 }
 
 .skill3{
-  height:10.5rem;
+  /* height:10.5rem; */
+  width:25%;
+  float: left;
+  margin-right: 2.2rem;
+
 }
 
 .profile-img{
@@ -120,7 +128,14 @@ a:active{
 
 .skills{
   text-align: center;
-  padding: 1em 12em;
+  width:48%;
+  margin:auto;
+  /* padding: 1em 12em; */
+}
+
+.skill-row{
+  margin:1em auto;
+  text-align:left;
 }
 .contact-me{
   text-align: center;
@@ -176,4 +191,8 @@ a:active{
 
 .skills-para{
   padding-bottom: 3rem;
+}
+
+.title{
+  font-family: 'Josefin Sans', sans-serif;
 }
